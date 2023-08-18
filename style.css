@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2'.github.io.com);
+@import url('https://fonts.googleapis.com/css2.github.io.com');
 
 *{
     padding: 0;
@@ -40,9 +40,9 @@
  }
  
  .logo {
-    font-size: 33px;
+    font-size: 30px;
     color: var(--text-color);
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
     cursor: default;
  }
@@ -86,7 +86,7 @@ span {
 }
 
 section {
-    padding: 70px 20% 60px;
+    padding: 70px 6.0% 50px;
 }
 
 .home {
@@ -112,8 +112,8 @@ section {
 
 .home-text h1 {
     font-size: var(--h1-font);
-    font-weight: 800;
-    line-height: 1.2;
+    font-weight: 500;
+    line-height: 1.0;
     margin-bottom: 20px;
 }
 
@@ -142,4 +142,7 @@ section {
     border: 5px solid var(--text-color);
     background: transparent;
     color: var(--text-color);
+}
+section h2 {
+    padding: 70px 6.0% 50px;
 }
